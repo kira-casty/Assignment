@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tabs</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/libs/css/style.css">
+    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+       <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand" href="../index.html">Homepage</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <li class="nav-item">
+                            <div id="custom-search" class="top-search-bar">
+                                <input class="form-control" type="text" placeholder="Search..">
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown notification">
+                            <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span class="indicator"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                                <li>
+                                    <div class="notification-title"> Notification</div>
+                                    <div class="notification-list">
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action active">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="../assets/images/avatar-2.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Jacob</span>accepted your invitation to join the team.
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="../assets/images/avatar-3.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Maxwell Jacob</span>is now following you
+                                                        <div class="notification-date">2 days ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="../assets/images/avatar-4.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Dean Ambrose</span> is watching your main repository
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="../assets/images/avatar-5.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Jessica Caruso</span>accepted your invitation to join the team.
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown connection">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-fw fa-th"></i> </a>
+                            <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
+                                <li class="connection-list">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/github.png" alt="" > <span>Github</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/dribbble.png" alt="" > <span>Dribbble</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/dropbox.png" alt="" > <span>Dropbox</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/bitbucket.png" alt=""> <span>Bitbucket</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/mail_chimp.png" alt="" ><span>Mail chimp</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="../assets/images/slack.png" alt="" > <span>Slack</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="conntection-footer"><a href="#">More</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown nav-user">
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/avatar-1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+                            <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                                <div class="nav-user-info">
+                                    <h5 class="mb-0 text-white nav-user-name">Abraham Lincoln</h5>
+                                    <span class="status"></span><span class="ml-2">Available</span>
+                                </div>
+                                <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end navbar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+        <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                Menu
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Dashboard <span class="badge badge-success">6</span></a>
+                                <div id="submenu-1" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-2" aria-controls="submenu-1-2">E-Commerce</a>
+                                            <div id="submenu-1-2" class="collapse submenu" style="">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="../index.html">E Commerce Dashboard</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="../ecommerce-product.html">Product List</a>
+                                                    </li>
+                                                  
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="../ecommerce-product-checkout.html">Product Checkout</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../dashboard-finance.html">Finance</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../dashboard-sales.html">Sales</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">Infulencer</a>
+                                            <div id="submenu-1-1" class="collapse submenu" style="">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="../dashboard-influencer.html">Influencer</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="../influencer-finder.html">Influencer Finder</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="../influencer-profile.html">Influencer Profile</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2" aria-controls="submenu-2"><i class="fa fa-fw fa-rocket"></i>UI Elements</a>
+                                <div id="submenu-2" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cards.html">Cards <span class="badge badge-secondary">New</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="general.html">General</a>
+                                        </li>
+                                       
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="listgroup.html">List Group</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="typography.html">Typography</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="accordions.html">Accordions</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="tabs.html">Tabs</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Chart</a>
+                                <div id="submenu-3" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-c3.html">C3 Charts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-chartist.html">Chartist Charts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-charts.html">Chart</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-morris.html">Morris</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-sparkline.html">Sparkline</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="chart-gauge.html">Guage</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fab fa-fw fa-wpforms"></i>Forms</a>
+                                <div id="submenu-4" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="form-elements.html">Form Elements</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="form-validation.html">Parsely Validations</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="multiselect.html">Multiselect</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-5"><i class="fas fa-fw fa-table"></i>Tables</a>
+                                <div id="submenu-5" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="general-table.html">General Tables</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="data-tables.html">Data Tables</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-divider">
+                                Features
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-6" aria-controls="submenu-6"><i class="fas fa-fw fa-file"></i>Pages</a>
+                                <div id="submenu-6" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="invoice.html">Invoice</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blank-page.html">Blank Page</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blank-page-header.html">Blank Page Header</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="login.html">Login</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="404-page.html">404 page</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="sign-up.html">Sign up Page</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="forgot-password.html">Forgot Password</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="pricing.html">Pricing Tables</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="timeline.html">Timeline</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="calendar.html">Calendar</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="sortable-nestable-lists.html">Sortable/Nestable List</a>
+                                        </li>
+                                       <li class="nav-item">
+                                            <a class="nav-link" href="widgets.html">Widgets</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="media-object.html">Media Objects</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cropper-image.html">Cropper</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="color-picker.html">Color Picker</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-7" aria-controls="submenu-7"><i class="fas fa-fw fa-inbox"></i>Apps <span class="badge badge-secondary">New</span></a>
+                                <div id="submenu-7" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="inbox.html">Inbox</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="email-details.html">Email Detail</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="email-compose.html">Email Compose</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="message-chat.html">Message Chat</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fas fa-fw fa-columns"></i>Icons</a>
+                                <div id="submenu-8" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-fontawesome.html">FontAwesome Icons</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-material.html">Material Icons</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-simple-lineicon.html">Simpleline Icon</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-themify.html">Themify Icon</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-flag.html">Flag Icons</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="icon-weather.html">Weather Icon</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="container-fluid  dashboard-content">
+                <!-- ============================================================== -->
+                <!-- pageheader -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="page-header">
+                            <h2 class="pageheader-title">Tabs</h2>
+                            <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
+                            <div class="page-breadcrumb">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">UI Elements</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Tabs</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- end pageheader -->
+                <!-- ============================================================== -->
+             
+                    <div class="row">
+                        <!-- ============================================================== -->
+                        <!-- basic tabs  -->
+                        <!-- ============================================================== -->
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb-5">
+                            <div class="section-block">
+                                <h5 class="section-title">Basic Tabs</h5>
+                                <p>Takes the basic nav from above and adds the .nav-tabs class to generate a tabbed interface..</p>
+                            </div>
+                            <div class="tab-regular">
+                                <ul class="nav nav-tabs " id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Tab Title #1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Tab Title #2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Tab Title #3</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <p class="lead"> Introduction. </p>
+                                        <p>Using sales evaluation from sales reports, the projects delivers a decision-making tool through demand forecasting and company performance. The business goal is first anticipate future products marketing based on the type of marketing, the product, and the demographic characteristics of the consumer, and then to manage the company performance.</p>
+                                        
+                                    </div>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <h3>Problem Statement</h3>
+                                        <p>Most Small scale businesses have the challenge to monitor the performance of their businesses and thus they are unable to evaluate their business. Most of them keep the records of their businesses manually and thus they are not able to track their sales. This system will help to address this problem by automating the process of sales evaluation.  </p>
+                                    </div>
+                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        <h3>Problem Statement cont.</h3>
+                                        <p>Small scale businesses are unable to identify their target market. Using information about customer history of purchased products and behavior, the system will help the business owners in choosing the right marketing message for the right customer and also help to determine which product to be sold to which group. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end basic tabs  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- basic tabs  -->
+                        <!-- ============================================================== -->
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb-5">
+                            <div class="section-block">
+                                <h5 class="section-title">Outline Tabs</h5>
+                                <p>Takes the basic nav from above and adds the .nav-tabs class to generate a tabbed interface..</p>
+                            </div>
+                            <div class="tab-outline">
+                                <ul class="nav nav-tabs" id="myTab2" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="tab-outline-one" data-toggle="tab" href="#outline-one" role="tab" aria-controls="home" aria-selected="true">Tab#1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="tab-outline-two" data-toggle="tab" href="#outline-two" role="tab" aria-controls="profile" aria-selected="false">Tab#2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="tab-outline-three" data-toggle="tab" href="#outline-three" role="tab" aria-controls="contact" aria-selected="false">Tab#3</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent2">
+                                    <div class="tab-pane fade show active" id="outline-one" role="tabpanel" aria-labelledby="tab-outline-one">
+                                        <p class="lead"> General Objectives </p>
+                                        <p>To develop a system based on customers purchase history which will help in performance evaluation and can be utilized in any small scale firm to aid in decision-making and improve marketing.</p>
+                                        
+                                    </div>
+                                    <div class="tab-pane fade" id="outline-two" role="tabpanel" aria-labelledby="tab-outline-two">
+                                        <h3>Proporsed System</h3>
+                                        <p>This is a user-friendly system for small scale businesses e.g. grocery shops, that helps in sales performance calculation. Also, the system help small scale business in decision making and manage their stock.  </p>
+                                      
+                                    </div>
+                                    <div class="tab-pane fade" id="outline-three" role="tabpanel" aria-labelledby="tab-outline-three">
+                                        <h3>Justification</h3>
+                                        <p>The sales performance system solves the problem of sales evaluation and acts as an effective decision-making tool. Assessing the performance of salespeople includes allocating a relative score to reflect a business performance on the identified dimension for measuring both sales performance and behavioral aspects of the employee in the job. A performance evaluation must have to link with the strategic mission of the sales force and the performance standard taken for measurement, it should be specific, measurable, attainable, and realistic and time specific which reflect the quality of the business how well the employee performs on the expected terms of the sales objective. 
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end basic tabs  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- vertical tabs  -->
+                        <!-- ============================================================== -->
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb-5">
+                            <div class="section-block">
+                                <h5 class="section-title">Vertical tabs</h5>
+                                <p>Takes the basic nav from above and adds the .nav-tabs class to generate a tabbed interface..</p>
+                            </div>
+                            <div class="tab-vertical">
+                                <ul class="nav nav-tabs" id="myTab3" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="home-vertical-tab" data-toggle="tab" href="#home-vertical" role="tab" aria-controls="home" aria-selected="true">Tab Vertical #1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="profile-vertical-tab" data-toggle="tab" href="#profile-vertical" role="tab" aria-controls="profile" aria-selected="false">Tab Vertical #2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-vertical-tab" data-toggle="tab" href="#contact-vertical" role="tab" aria-controls="contact" aria-selected="false">Tab Vertical #3</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent3">
+                                    <div class="tab-pane fade show active" id="home-vertical" role="tabpanel" aria-labelledby="home-vertical-tab">
+                                        <p class="lead"> Scope of the Projecct </p>
+                                        <p>The business management system will cover the businesses in all companies or business entities. 
+                                            The scope will entail the following: 
+                                            The case study for the businesses in all companies or business entities for B2C,The development of the system using PHP as the main development language and Collection and analysis of customer’s data stored in MYSQL Databases. </p>
+    
+                                    </div>
+                                    <div class="tab-pane fade" id="profile-vertical" role="tabpanel" aria-labelledby="profile-vertical-tab">
+                                        <h3>Introduction</h3>
+                                        <p>Given technological advancements, business intelligence plays an increasingly important role in decision-making for future endeavors, assisting in the development of new strategies, enabling operational excellence, tactical insights, and firm decisionmaking for future aspects of the company in the modern era and even in the future demand and manufacture of goods that will be more in demand in the near future. As a result, we will be able to create the essential items ahead of time based on market demand. Aside from the items that the firm needs to make, this will also decide possible consumers for the company/production facility. Finally, a correct forecast may result in a profit for the firm. To put it another way, demand forecasting is a necessary addition. </p>
+                                    </div>
+                                    <div class="tab-pane fade" id="contact-vertical" role="tabpanel" aria-labelledby="contact-vertical-tab">
+                                        <h3>Hub Spot</h3>
+                                        <p>Hub Spot is a developer and marketer of software products for inbound marketing and sales. It was founded by Brian Halligan and Dharmesh Shah in 2006. Its products and services aim to provide tools for social media marketing, content management and search engine optimization. However, Hub Spot is suitable for only B2B (bulk goods businesses) hence does not accommodate for small businesses</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end basic tabs  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- vertical tabs  -->
+                        <!-- ============================================================== -->
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb-5">
+                            <div class="section-block">
+                                <h5 class="section-title">Outline Vertical tabs</h5>
+                                <p>Takes the basic nav from above and adds the .nav-tabs class to generate a tabbed interface..</p>
+                            </div>
+                            <div class="tab-vertical-outline">
+                                <ul class="nav nav-tabs " id="myTab4" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="home-outline-verti-tab" data-toggle="tab" href="#home-outline-vertical" role="tab" aria-controls="home" aria-selected="true">Tab#1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="profile-outline-verti-tab" data-toggle="tab" href="#profile-outline-vertical" role="tab" aria-controls="profile" aria-selected="false">Tab#2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-outline-verti-tab" data-toggle="tab" href="#contact-outline-vertical" role="tab" aria-controls="contact" aria-selected="false">Tab#3</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent4">
+                                    <div class="tab-pane fade show active" id="home-outline-vertical" role="tabpanel" aria-labelledby="home-outline-verti-tab">
+                                        <p class="lead"> Evernote </p>
+                                        <p>This is a software used by businesses to take notes, share them with the right people (sales managers and customers), save audio recordings, charts, and links, and then easily search for them when you need to. The limitation of Evernote is that it does not offer the analysis of the sales done but only fosters communication</p>
+                                   
+                                    </div>
+                                    <div class="tab-pane fade" id="profile-outline-vertical" role="tabpanel" aria-labelledby="profile-outline-verti-tab">
+                                        <h3>Rank Active Softwae</h3>
+                                        <p>This is a software for marketers where it is used to track a company’s online presence and enhance their visibility in the search engine. However, this system does not directly evaluate customer’s history through the sales agents and what they have encountered during their customer interactions </p>
+                                    </div>
+                                    <div class="tab-pane fade" id="contact-outline-vertical" role="tabpanel" aria-labelledby="contact-outline-verti-tab">
+                                        <h3>Clear Slide</h3>
+                                        <p>Clear Slide is a software, which helps businesses to manage the company’s customerfacing content and access and present it as needed. For businesses whose products have a longer and interactive sales cycle, this tool allows them to get rid to the right content quickly, and get it at their prospect without having the message in the head hence the software helps to automatically present the content. However, the Clear Slide does not provide analytics about the customer’s content reviews and what they like about a product to help in market segmentation. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end basic tabs  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Simple tabs  -->
+                        <!-- ============================================================== -->
+                        
+                        <!-- end simple outline tabs  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        
+                        <!-- end basic pills  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        
+                        <!-- end basic pills  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        
+                        <!-- ============================================================== -->
+                    </div>
+              
+            </div>
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <div class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            Copyright © March 2023. All rights reserved...</a>.
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="text-md-right footer-links d-none d-sm-block">
+                                <a href="javascript: void(0);">About</a>
+                                <a href="javascript: void(0);">Support</a>
+                                <a href="javascript: void(0);">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- end footer -->
+            <!-- ============================================================== -->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <script src="../assets/libs/js/main-js.js"></script>
+</body>
+
+ 
+</html>
